@@ -1,0 +1,513 @@
+*{
+
+    margin: 0;
+    font-family:  sans-serif;
+    border: border-box;    
+
+}
+
+
+.nav-1 {
+
+    /* border: 2px solid red; */
+    background-color: #ffffff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.txt{
+
+    padding-left: 25px;
+    line-height: 1.5;
+    width: 70%;
+    /* border: 2px solid black; */
+    color: #10664A;
+    
+
+
+}
+
+.txt h2 {
+
+    font-weight: 10;
+
+}
+
+
+
+
+
+.country
+{
+    /* border: 2px solid black; */
+    height: 70px;
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.flag-icon {
+      height: 18px;
+      width: 28px;
+
+
+
+}
+
+.country-name  {
+
+    color: #10664A;
+    font-size: 1.2rem;
+    
+}
+
+.country-name h3  {
+
+    font-weight: 100;
+
+}
+
+.menu{
+
+    color: #10664A;
+}
+
+
+.location
+{
+    /* border: 2px solid black; */
+    height: 70px;
+    width: 9%;
+    display: flex;
+    align-items: center;
+  
+
+}
+
+.loc-icon{
+
+    font-size: 1.3rem;
+    padding-left: 2px;
+    color: #10664A;
+
+}
+
+.loc-txt{
+
+     color: #10664A;
+    font-size: 1.2rem;
+    padding-left: 6px;
+    
+}
+
+.loc-txt h3 {
+
+    font-weight: 100;
+
+
+}
+
+.menu-loc{
+
+    color: #10664A;
+    padding-left: 6px;
+
+}
+
+
+.search {
+    
+    /* border: 2px solid red; */
+    height: 70px;
+    width:5%;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #10664A;
+    
+}
+
+
+ .nav-2{
+
+    height: 60px;
+    background-color: #0c7153;
+    display: flex;
+    font-size: 1.2rem;
+    color: #f7fffa;
+    font-weight: 600;
+
+} 
+
+.nav-2-items{
+
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+.nav-2-items p {
+
+    padding-left: 30px;
+    
+
+}
+
+.bs {
+
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2.5px;
+
+}
+
+
+.hero-section{
+
+    
+    /* border: 2px solid red; */
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+
+.hero-txt{
+
+        
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 450px;
+    
+    line-height: 2;
+    letter-spacing: 1.2px;
+   
+
+
+}
+
+.ex{
+
+    color: #10664A;
+   
+}
+
+.hero-txt h3 {
+
+     padding-bottom: 10px; 
+     font-size: 2.7rem;
+     font-weight: 700;
+    
+
+
+
+}
+
+.hero-img{
+
+    width: 40%;
+    height: 400px;
+    background-image: url("images/hk-business-1-1-1024x994.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 2px solid green; */
+    margin-top: 35px;
+    transform: translate(10px,-10px);
+
+}
+
+.b1{
+
+    transform: translate(0,20px);
+    color: #10664A;
+
+
+}
+
+.b2{
+
+    transform: translate(20px,-72px);
+
+
+}
+
+
+.b3{
+
+    transform: translate(12px, -80px);
+    text-align: justify;
+    line-height: 1.6;
+
+}
+
+.b3 a {
+
+    color: #10664A;
+    font-weight: 1000;    
+
+}
+
+
+.nav-3{
+
+    height: 180px;
+    background-color: #10664A;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   line-height: 2;
+   opacity: 0.9;
+   
+
+
+
+}
+
+.nav-3-top{
+
+    display: flex;
+    font-size: 2rem;
+    
+
+
+
+}
+
+.nav-3-top, .nav-3-foot
+{
+
+    transform: translate(80px);
+
+}
+
+.n1{
+
+    transform: translate(0, -4px);
+
+}
+
+.n2{
+
+    transform: translate(4px);
+
+}
+
+
+ .cards{
+
+    height: 500px; 
+    background-color: #ffffff;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+
+
+}
+
+.card{
+
+
+   
+    height: 390px;
+    width: 20%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    transform: translate(180px);
+    box-shadow: 2px 2px 8px black;
+
+
+}
+
+.card-img-1{
+
+    background-image: url("images/card-1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    transform: translate(0,20px);
+
+}
+
+
+.img-footer{
+
+    height: 90px;
+    background-color:#10664A;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    
+}
+
+.img-footer p {
+
+    padding-bottom: 20px;
+
+}
+
+
+
+
+.card-img-2{
+
+    background-image: url("images/card-2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    transform: translate(0,20px);
+
+}
+
+
+.card-img-3{
+
+    background-image: url("images/card-3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    transform: translate(0,20px);
+
+}
+
+
+.nav-4 {
+
+    height: 70px;
+    background-color:#10664A;
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+
+}
+
+
+.v-line {
+  width: 1px;
+  height: 38px; /* control height here */
+  background-color: #ffffff; /* adjust color */
+}
+
+
+.hb-logo-section{
+
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+
+
+}
+
+
+.hb-logo{
+
+    height: 270px; 
+    width: 270px; 
+    background-image: url("images/hb-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+.h-line{
+    height: 1px;
+    width: 100%;
+    background-color: #10664A;
+
+    
+}
+
+
+.footer {
+
+    height: 40px;
+    display: flex;
+    /* align-items: center; */
+    transform: translate(0, 20px);
+    font-size: 0.9rem;
+
+
+}
+
+
+
+
+.cp{
+
+    width: 60%;
+    color: #10664A;
+    padding-left: 50px;
+    /* font-weight: 600; */
+    font-size: 0.97rem;
+    /* border: 2px solid red; */
+
+
+
+}
+
+
+.ft-items{
+
+    color: #10664A;
+    display: flex;
+    font-weight: 600;
+    gap: 8px;
+    /* border: 2px solid black; */
+
+
+}
+
+
+.ft-icons{
+
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+    font-size: 1.3rem;
+    transform: translate(-85px, 40px);
+    
+
+}
+
+
+.msg-icon, .linkedin-icon{
+
+
+    background-color: #10664A;
+    color: #ffffff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
