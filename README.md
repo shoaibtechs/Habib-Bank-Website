@@ -41,4 +41,4 @@ This is a front-end clone of the official **Habib Bank Zurich (Hong Kong)** webs
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/Zurich-Banking-Website-Clone.git
+   git clone git clone https://github.com/your-username/Zurich-Banking-Website-Clone.git
