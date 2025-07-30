@@ -26,7 +26,9 @@ This is a front-end clone of the official **Habib Bank Zurich (Hong Kong)** webs
 
 ## 📸 Screenshots
 
-> Add some screenshots of your webpage here to showcase the layout.
+### 🏠 Homepage
+![Homepage](hb-1.png)
+
 
 ## 🚀 How to Run Locally
 
